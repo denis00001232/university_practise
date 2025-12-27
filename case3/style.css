@@ -1,0 +1,57 @@
+.alligner {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.control-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.image {
+    object-fit: contain;
+    width: fit-content;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 2px gray;
+    -webkit-box-shadow: 0px 0px 25px 9px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 0px 25px 9px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 0px 25px 9px rgba(34, 60, 80, 0.3);
+}
+
+.button {
+    border-radius: 30px;
+    align-self: center;
+    cursor: pointer;
+    border: 0px;
+    width: 60px;
+    background: rgb(110, 219, 238);
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.button:hover {
+    background: rgb(35, 160, 182);
+    transform: translateY(-3px);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
